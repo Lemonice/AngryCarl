@@ -119,16 +119,16 @@ if (firing){
     
     switch(direction){
         case 1:
-            origin_x_offset = -50;
+            origin_x_offset = -25;
             break;
         case 2:
-            origin_y_offset = -50;
+            origin_y_offset = -25;
             break;
         case 3:
-            origin_x_offset = 50;
+            origin_x_offset = 25;
             break;
         case 4:
-            origin_y_offset = 50;
+            origin_y_offset = 25;
             break;
         default:
             break;
