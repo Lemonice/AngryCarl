@@ -2,9 +2,9 @@
 <sprite>
   <xorig>32</xorig>
   <yorigin>32</yorigin>
-  <colkind>2</colkind>
+  <colkind>0</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>0</sepmasks>
+  <sepmasks>-1</sepmasks>
   <bboxmode>1</bboxmode>
   <bbox_left>0</bbox_left>
   <bbox_right>63</bbox_right>
@@ -14,8 +14,6 @@
   <VTile>0</VTile>
   <TextureGroup>0</TextureGroup>
   <For3D>0</For3D>
-  <width>64</width>
-  <height>64</height>
   <frames>
     <frame index="0">images\spr_gdgy_0.png</frame>
   </frames>
