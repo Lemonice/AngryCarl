@@ -6,15 +6,16 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_bdgy2</sprite>
+    <sprite>sprites\spr_gdgy</sprite>
+    <sprite>sprites\spr_pell</sprite>
+    <sprite>sprites\spr_bdgy1</sprite>
+    <sprite>sprites\spr_bdgy3</sprite>
+    <sprite>sprites\spr_boss</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\background0</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
-  <rooms name="rooms">
-    <room>rooms\room0</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
