@@ -12,10 +12,10 @@
     <sprite>sprites\spr_bdgy1</sprite>
     <sprite>sprites\spr_bdgy3</sprite>
     <sprite>sprites\spr_boss</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
