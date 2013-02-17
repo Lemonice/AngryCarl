@@ -19,6 +19,9 @@
   <objects name="objects">
     <object>objects\obj_gdgy</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\Stating_Area</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
