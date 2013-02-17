@@ -78,6 +78,7 @@ if (keyboard_check(vk_down)||keyboard_check(ord('S')))
 if (keyboard_check(vk_left)||keyboard_check(ord('A')))
 {
     if (direction != 1){
+        sprite_index = spr_gdgyl;
         direction = 1;
     }
     x -= 5;
@@ -85,6 +86,7 @@ if (keyboard_check(vk_left)||keyboard_check(ord('A')))
 if (keyboard_check(vk_right)||keyboard_check(ord('D')))
 {
     if (direction != 3){
+        sprite_index = spr_gdgy;
         direction = 3;
     }
     x += 5;
@@ -112,18 +114,38 @@ if (cooldown &gt; 0){
 
 // Shooting logic
 if (firing){
+    origin_x_offset = 0;
+    origin_y_offset = 0;
+    
+    switch(direction){
+        case 1:
+            origin_x_offset = -50;
+            break;
+        case 2:
+            origin_y_offset = -50;
+            break;
+        case 3:
+            origin_x_offset = 50;
+            break;
+        case 4:
+            origin_y_offset = 50;
+            break;
+        default:
+            break;
+    }
+
     switch(weapon){
         case 1:
             if (cooldown == 0){
-                instance_create(obj_gdgy.x + 50, obj_gdgy.y, obj_bullet);
-                //obj.bullet.direction = this.direction;
+                instance_create(obj_gdgy.x + origin_x_offset, obj_gdgy.y + origin_y_offset, obj_bullet);
+                //obj.bullet.direction = direction;
                 cooldown = 10;
             }
             break;
         case 4:
             if (has_flames){
-                instance_create(obj_gdgy.x + 50, obj_gdgy.y, obj_flame);
-                obj.flame.direction = this.direction;
+                projectile = instance_create(obj_gdgy.x + origin_x_offset, obj_gdgy.y + origin_y_offset, obj_flame);
+                projectile.direction = direction;
             }
             break;
         default:
