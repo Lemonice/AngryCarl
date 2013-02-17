@@ -9,6 +9,9 @@
     <sprite>sprites\spr_bdgy2</sprite>
     <sprite>sprites\spr_gdgy</sprite>
     <sprite>sprites\spr_pell</sprite>
+    <sprite>sprites\spr_pellb</sprite>
+    <sprite>sprites\spr_pellg</sprite>
+    <sprite>sprites\spr_pellr</sprite>
     <sprite>sprites\spr_bdgy1</sprite>
     <sprite>sprites\spr_bdgy3</sprite>
     <sprite>sprites\spr_boss</sprite>
