@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.5;
+            <string>direction = 0;
+image_speed = 0.5;
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x += 15;
+            <string>switch (direction){
+    case 1:
+        x -= 15;
+        break;
+    case 2:
+        y -= 15;
+        break;
+    case 3:
+        x += 15;
+        break;
+    case 4:
+        y += 15;
+        break;
+    default:
+        break;
+}
 </string>
           </argument>
         </arguments>
