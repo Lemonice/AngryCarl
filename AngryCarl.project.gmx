@@ -18,6 +18,7 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_mk</sprite>
     <sprite>sprites\spr_fire</sprite>
+    <sprite>sprites\spr_bullet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -26,6 +27,7 @@
     <object>objects\obj_flame</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_pellr</object>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Starting_Area</room>
