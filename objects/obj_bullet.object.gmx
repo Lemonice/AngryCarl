@@ -132,7 +132,7 @@ if (dist_traveled &gt;= 150){
           <argument>
             <kind>1</kind>
             <string>obj_bdgy2.health-=1;
-
+obj_bdgy1.health-=1;
 instance_destroy();
 </string>
           </argument>
