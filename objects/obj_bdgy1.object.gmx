@@ -97,7 +97,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health</string>
+            <string>hp</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -381,8 +381,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health-=1;
-if (health=0)
+            <string>hp -= 2;
+if (hp &lt;= 0)
 {
     instance_destroy();
 }
@@ -438,94 +438,14 @@ if (health=0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health -=.5;
-if (health=0)
+            <string>hp -= .5;
+if (hp &lt;= 0)
 {
     instance_destroy();
 }
 </string>
           </argument>
         </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_gdgy">
-      <action>
-        <libid>1</libid>
-        <id>402</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_collision</functionname>
-        <codestring></codestring>
-        <whoName>obj_gdgy</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>422</id>
-        <kind>1</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>obj_gdgy.health -= 1;
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>424</id>
-        <kind>2</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
   </events>

@@ -25,8 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>weapon = 1;
+            <string>health = 5;
+weapon = 1;
 cooldown = 0; // Regulates the firing tempo of weapons
+damage_cooldown = 0; // Regulates how fast you can get hurt
 has_flames = false;
 firing = false;
 
@@ -78,7 +80,13 @@ if (keyboard_check(vk_down)||keyboard_check(ord('S')))
 if (keyboard_check(vk_left)||keyboard_check(ord('A')))
 {
     if (direction != 1){
-        sprite_index = spr_gdgyl;
+        if (sprite_index != spr_gdgyl &amp;&amp; sprite_index != spr_gdgyhrtl){
+            if (damage_cooldown &lt; 35){
+                sprite_index = spr_gdgyl;
+            } else {
+                sprite_index = spr_gdgyhrtl;
+            }
+        }
         direction = 1;
     }
     x -= 5;
@@ -86,7 +94,13 @@ if (keyboard_check(vk_left)||keyboard_check(ord('A')))
 if (keyboard_check(vk_right)||keyboard_check(ord('D')))
 {
     if (direction != 3){
-        sprite_index = spr_gdgy;
+        if (sprite_index != spr_gdgy &amp;&amp; sprite_index != spr_gdgyhrt){
+            if (damage_cooldown &lt; 35){
+                sprite_index = spr_gdgy;
+            } else {
+                sprite_index = spr_gdgyhrt;
+            }
+        }
         direction = 3;
     }
     x += 5;
@@ -110,6 +124,18 @@ if (keyboard_check(vk_space)){
 // Weapon maintenance and cooldown
 if (cooldown &gt; 0){
     cooldown--;
+}
+
+// Getting hurt cooldown
+if (damage_cooldown &gt; 0){
+    damage_cooldown--;
+    if (damage_cooldown &lt; 35){
+        if (sprite_index == spr_gdgyhrt){
+            sprite_index = spr_gdgy;
+        } else if (sprite_index == spr_gdgyhrtl){
+            sprite_index = spr_gdgyl;
+        }
+    }
 }
 
 // Shooting logic
@@ -137,8 +163,14 @@ if (firing){
     switch(weapon){
         case 1:
             if (cooldown == 0){
-                instance_create(obj_gdgy.x + origin_x_offset, obj_gdgy.y + origin_y_offset, obj_bullet);
-                //obj.bullet.direction = direction;
+                projectile = instance_create(obj_gdgy.x + origin_x_offset, obj_gdgy.y + origin_y_offset, obj_bullet);
+                projectile.direction = direction;
+                
+                // If the bullet is going to go up or down
+                if (direction == 2 || direction == 4){
+                    projectile.sprite_index = spr_bulletv;
+                }
+                
                 cooldown = 10;
             }
             break;
@@ -151,6 +183,74 @@ if (firing){
         default:
             break;
     }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_bdgy1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (damage_cooldown == 0){
+
+    // Flash red for getting hurt!
+    if (sprite_index == spr_gdgy){
+        sprite_index = spr_gdgyhrt;
+    } else {
+        sprite_index = spr_gdgyhrtl;
+    }
+    
+    health--;
+    damage_cooldown = 40;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_bdgy2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (damage_cooldown == 0){
+
+    // Flash red for getting hurt!
+    if (sprite_index == spr_gdgy){
+        sprite_index = spr_gdgyhrt;
+    } else {
+        sprite_index = spr_gdgyhrtl;
+    }
+    
+    health--;
+    damage_cooldown = 40;
 }
 </string>
           </argument>
@@ -230,6 +330,31 @@ if (firing){
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="9">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>show_message("Game over. You lose!");
+instance_destroy();
+game_end();
+</string>
           </argument>
         </arguments>
       </action>
