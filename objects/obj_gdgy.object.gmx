@@ -27,9 +27,11 @@
             <kind>1</kind>
             <string>health = 5;
 weapon = 1;
-cooldown = 0; // Regulates the firing tempo of weapons
+cooldown = 0; // Regulates the firing tempo of primary weapon
+mg_cooldown = 0; // Regulates the firing tempo of Weapon 2 (machine gun)
 damage_cooldown = 0; // Regulates how fast you can get hurt
 has_flames = false;
+has_machinegun = false;
 firing = false;
 
 /*
@@ -109,6 +111,8 @@ if (keyboard_check(vk_right)||keyboard_check(ord('D')))
 // Weapon selection
 if (keyboard_check(ord('1'))){
     weapon = 1;
+} else if (keyboard_check(ord('2'))){
+    weapon = 2;
 } else if (keyboard_check(ord('4'))){
     weapon = 4;
 }
@@ -124,6 +128,9 @@ if (keyboard_check(vk_space)){
 // Weapon maintenance and cooldown
 if (cooldown &gt; 0){
     cooldown--;
+}
+if (mg_cooldown &gt; 0){
+    mg_cooldown--;
 }
 
 // Getting hurt cooldown
@@ -174,6 +181,21 @@ if (firing){
                 cooldown = 10;
             }
             break;
+        case 2:
+            if (has_machinegun){
+                if (mg_cooldown == 0){
+                    projectile = instance_create(obj_gdgy.x + origin_x_offset, obj_gdgy.y + origin_y_offset, obj_bullet);
+                    projectile.direction = direction;
+                    
+                    // If the bullet is going to go up or down
+                    if (direction == 2 || direction == 4){
+                        projectile.sprite_index = spr_bulletv;
+                    }
+                    
+                    mg_cooldown = 5;
+                }
+            }
+            break;
         case 4:
             if (has_flames){
                 projectile = instance_create(obj_gdgy.x + origin_x_offset, obj_gdgy.y + origin_y_offset, obj_flame);
@@ -184,6 +206,29 @@ if (firing){
             break;
     }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_pellb">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>has_machinegun = true;
 </string>
           </argument>
         </arguments>
