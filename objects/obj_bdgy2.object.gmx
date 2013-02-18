@@ -52,7 +52,7 @@
             <string>hp = 20;
 range_max = 300;
 range_min = 120;
-move_speed = 6;
+move_speed = 8;
 </string>
           </argument>
         </arguments>
