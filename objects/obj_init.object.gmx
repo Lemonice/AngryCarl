@@ -53,10 +53,11 @@ mFont = font_add_sprite(spr_font, ord('!'), false, 0);
             <string>draw_set_font(mFont);
 
 draw_set_color(c_lime);
-draw_text(230,170, "Angry Carl");
-draw_text(80,230, "A Sean and Peter Production");
+drawTextCentered("Angry Carl", 0, 170, 18, 640);
 
-draw_text(115,450, "PRESS 'SPACE' TO START!");
+drawTextCentered("A Sean and Peter Production",0,230,18,640);
+
+drawTextCentered("PRESS 'SPACE' TO START!",0,450,18,640);
 </string>
           </argument>
         </arguments>
