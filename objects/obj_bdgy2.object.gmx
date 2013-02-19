@@ -303,9 +303,7 @@ move_speed = 8;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (obj_shotgun.collided == false){
-    hp -= 3;
-}
+            <string>hp -= 3;
 </string>
           </argument>
         </arguments>
