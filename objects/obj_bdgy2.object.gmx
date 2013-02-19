@@ -303,7 +303,7 @@ move_speed = 8;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp--;
+            <string>hp -= 3;
 </string>
           </argument>
         </arguments>
