@@ -77,7 +77,7 @@ if (duration == 3){
         
         // Take care of the odd case for 0 degrees and 359 degrees being right next to each other
         if (direction == 3){
-            spread = random(31);
+            spread = random(15);
             if (floor(random(2)) == 0){
                 projectile.image_angle = spread;
             } else {
