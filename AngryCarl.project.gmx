@@ -26,6 +26,7 @@
     <sprite>sprites\spr_bulletv</sprite>
     <sprite>sprites\spr_shotgun</sprite>
     <sprite>sprites\spr_shotblast</sprite>
+    <sprite>sprites\spr_font</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -47,8 +48,11 @@
     <object>objects\obj_shotgun</object>
     <object>objects\obj_pellg</object>
     <object>objects\obj_shotblast</object>
+    <object>objects\obj_init</object>
+    <object>objects\obj_title</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\TitlePage</room>
     <room>rooms\Starting_Area</room>
   </rooms>
   <help>
