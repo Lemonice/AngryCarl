@@ -24,6 +24,8 @@
     <sprite>sprites\spr_hp</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_bulletv</sprite>
+    <sprite>sprites\spr_shotgun</sprite>
+    <sprite>sprites\spr_shotblast</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -42,6 +44,9 @@
     <object>objects\obj_bullet</object>
     <object>objects\obj_bdgy1</object>
     <object>objects\obj_pellb</object>
+    <object>objects\obj_shotgun</object>
+    <object>objects\obj_pellg</object>
+    <object>objects\obj_shotblast</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Starting_Area</room>
