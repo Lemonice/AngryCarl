@@ -29,9 +29,11 @@
 weapon = 1;
 cooldown = 0; // Regulates the firing tempo of primary weapon
 mg_cooldown = 0; // Regulates the firing tempo of Weapon 2 (machine gun)
+sg_cooldown = 0; // Regulates the firing tempo of Weapon 3 (shotgun)
 damage_cooldown = 0; // Regulates how fast you can get hurt
 has_flames = false;
 has_machinegun = false;
+has_shotgun = false;
 firing = false;
 
 /*
@@ -158,6 +160,8 @@ if (keyboard_check(ord('1'))){
     weapon = 1;
 } else if (keyboard_check(ord('2'))){
     weapon = 2;
+} else if (keyboard_check(ord('3'))){
+    weapon = 3;
 } else if (keyboard_check(ord('4'))){
     weapon = 4;
 }
@@ -176,6 +180,9 @@ if (cooldown &gt; 0){
 }
 if (mg_cooldown &gt; 0){
     mg_cooldown--;
+}
+if (sg_cooldown &gt; 0){
+    sg_cooldown--;
 }
 
 // Getting hurt cooldown
@@ -241,6 +248,16 @@ if (firing){
                 }
             }
             break;
+        case 3:
+            if (has_shotgun){
+                if (sg_cooldown == 0){
+                    projectile = instance_create(obj_gdgy.x + origin_x_offset, obj_gdgy.y + origin_y_offset, obj_shotblast);
+                    projectile.direction = direction;
+                    
+                    sg_cooldown = 25;
+                }
+            }
+            break;
         case 4:
             if (has_flames){
                 projectile = instance_create(obj_gdgy.x + origin_x_offset, obj_gdgy.y + origin_y_offset, obj_flame);
@@ -251,6 +268,29 @@ if (firing){
             break;
     }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_pellg">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>has_shotgun = true;
 </string>
           </argument>
         </arguments>
