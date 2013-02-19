@@ -27,7 +27,11 @@
     <sprite>sprites\spr_shotgun</sprite>
     <sprite>sprites\spr_shotblast</sprite>
     <sprite>sprites\spr_font</sprite>
+<<<<<<< HEAD
     <sprite>sprites\sdoor</sprite>
+=======
+    <sprite>sprites\spr_impact</sprite>
+>>>>>>> 942c8beb8b4c36ada34266e12f6b78dbfd9f23ed
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -49,6 +53,7 @@
     <object>objects\obj_shotblast</object>
     <object>objects\obj_init</object>
     <object>objects\obj_title</object>
+<<<<<<< HEAD
     <object>objects\odoor</object>
     <object>objects\ohud</object>
   </objects>
@@ -56,6 +61,13 @@
     <room>rooms\TitlePage</room>
     <room>rooms\rlvl1</room>
     <room>rooms\rlvl2</room>
+=======
+    <object>objects\obj_impact</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Starting_Area</room>
+    <room>rooms\TitlePage</room>
+>>>>>>> 942c8beb8b4c36ada34266e12f6b78dbfd9f23ed
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

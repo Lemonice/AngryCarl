@@ -89,6 +89,7 @@ if (duration == 3){
     }
 }
 
+
 if (duration &lt;= 0){
     instance_destroy();
 }
