@@ -27,6 +27,7 @@
     <sprite>sprites\spr_shotgun</sprite>
     <sprite>sprites\spr_shotblast</sprite>
     <sprite>sprites\spr_font</sprite>
+    <sprite>sprites\spr_impact</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -50,10 +51,11 @@
     <object>objects\obj_shotblast</object>
     <object>objects\obj_init</object>
     <object>objects\obj_title</object>
+    <object>objects\obj_impact</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\TitlePage</room>
     <room>rooms\Starting_Area</room>
+    <room>rooms\TitlePage</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

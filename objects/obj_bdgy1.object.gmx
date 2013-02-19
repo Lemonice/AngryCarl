@@ -404,7 +404,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp -= 3;
+            <string>if (obj_shotgun.collided == false){
+    hp -= 3;
+}
 </string>
           </argument>
         </arguments>
