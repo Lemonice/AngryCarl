@@ -27,6 +27,7 @@
     <sprite>sprites\spr_shotgun</sprite>
     <sprite>sprites\spr_shotblast</sprite>
     <sprite>sprites\spr_font</sprite>
+    <sprite>sprites\sdoor</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -48,10 +49,13 @@
     <object>objects\obj_shotblast</object>
     <object>objects\obj_init</object>
     <object>objects\obj_title</object>
+    <object>objects\odoor</object>
+    <object>objects\ohud</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TitlePage</room>
-    <room>rooms\Starting_Area</room>
+    <room>rooms\rlvl1</room>
+    <room>rooms\rlvl2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
