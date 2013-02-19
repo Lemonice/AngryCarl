@@ -62,31 +62,7 @@ direction = 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(spr_hp,image_index=0,view_xview[0]+100,view_yview[0]+20);
-if(health&lt;1)
-{
-    instance_destroy();
-}
-draw_sprite(spr_hp,image_index=1,view_xview[0]+117,view_yview[0]+20);
-if(health&lt;2)
-{
-    instance_destroy();
-}
-draw_sprite(spr_hp,image_index=2,view_xview[0]+134,view_yview[0]+20);
-if(health&lt;3)
-{
-    instance_destroy();
-}
-draw_sprite(spr_hp,image_index=3,view_xview[0]+151,view_yview[0]+20);
-if(health&lt;4)
-{
-    instance_destroy();
-}
-draw_sprite(spr_hp,image_index=4,view_xview[0]+168,view_yview[0]+20);
-if(health&lt;5)
-{
-    instance_destroy();
-}
+            <string>
 </string>
           </argument>
         </arguments>
