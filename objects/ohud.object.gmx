@@ -55,25 +55,25 @@ if (instance_exists(obj_gdgy))
           <argument>
             <kind>1</kind>
             <string>//Draw Hud
-draw_sprite(spr_hp,0, x,y-10);
-if (obj_gdgy.health&lt;1){
+draw_sprite(shp,0, x,y-10);
+if (ogdgy.health&lt;1){
 instance_destroy();
 }
-draw_sprite(spr_hp,0, x+19,y-10);
-if (obj_gdgy.health&lt;2){
-draw_sprite(spr_hp,1, x+19,y-10);
+draw_sprite(shp,0, x+19,y-10);
+if (ogdgy.health&lt;2){
+draw_sprite(shp,1, x+19,y-10);
 }
-draw_sprite(spr_hp,0,x+38,y-10);
-if (obj_gdgy.health&lt;3){
-draw_sprite(spr_hp,1,x+38,y-10);
+draw_sprite(shp,0,x+38,y-10);
+if (ogdgy.health&lt;3){
+draw_sprite(shp,1,x+38,y-10);
 }
-draw_sprite(spr_hp,0,x+57,y-10);
-if (obj_gdgy.health&lt;4){
-draw_sprite(spr_hp,1,x+57,y-10);
+draw_sprite(shp,0,x+57,y-10);
+if (ogdgy.health&lt;4){
+draw_sprite(shp,1,x+57,y-10);
 }
-draw_sprite(spr_hp,0, x+76,y-10);
-if (obj_gdgy.health&lt;5){
-draw_sprite(spr_hp,1, x+76,y-10);
+draw_sprite(shp,0, x+76,y-10);
+if (ogdgy.health&lt;5){
+draw_sprite(shp,1, x+76,y-10);
 }
 
 </string>

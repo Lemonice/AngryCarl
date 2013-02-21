@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>//Initialize the game
 globalvar mFont;
-mFont = font_add_sprite(spr_font, ord('!'), false, 0);
+mFont = font_add_sprite(spr_font, ord(' '), false, 0);
 </string>
           </argument>
         </arguments>
@@ -53,11 +53,11 @@ mFont = font_add_sprite(spr_font, ord('!'), false, 0);
             <string>draw_set_font(mFont);
 
 draw_set_color(c_lime);
-drawTextCentered("Angry Carl", 0, 170, 18, 640);
+drawTextCentered("Angry Carl", 0, 170, 20, 640);
 
-drawTextCentered("A Sean and Peter Production",0,230,18,640);
+drawTextCentered("A Sean and Peter Production",0,230,20,640);
 
-drawTextCentered("PRESS 'SPACE' TO START!",0,450,18,640);
+drawTextCentered("PRESS 'SPACE' TO START!",0,450,20,640);
 </string>
           </argument>
         </arguments>
