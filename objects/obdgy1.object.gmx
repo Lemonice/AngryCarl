@@ -25,78 +25,6 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Distance</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>120</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>range_max</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>300</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>range_min</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>120</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>hp</string>
           </argument>
           <argument>
@@ -107,9 +35,9 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
@@ -121,11 +49,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_speed</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>8</string>
+            <string>hp = 10;
+range_max = 120;
+range_min = 80;
+move_speed = 8;
+Distance = 120;
+</string>
           </argument>
         </arguments>
       </action>

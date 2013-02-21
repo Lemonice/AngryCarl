@@ -104,11 +104,11 @@ if (keyboard_check(vk_down)||keyboard_check(ord('S')))
 if (keyboard_check(vk_left)||keyboard_check(ord('A')))
 {
     if (direction != 1){
-        if (sprite_index != spr_gdgyl &amp;&amp; sprite_index != spr_gdgyhrtl){
+        if (sprite_index != sgdgyl &amp;&amp; sprite_index != sgdgyhrtl){
             if (damage_cooldown &lt; 35){
-                sprite_index = spr_gdgyl;
+                sprite_index = sgdgyl;
             } else {
-                sprite_index = spr_gdgyhrtl;
+                sprite_index = sgdgyhrtl;
             }
         }
         direction = 1;
@@ -456,9 +456,13 @@ if (firing){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_message("Game over. You lose!");
+            <string>show_message("You Died.");
 instance_destroy();
-game_end();
+if(clives&lt;1)
+{
+    show_message("Game Over. Try Again!");
+    game_end();
+}
 </string>
           </argument>
         </arguments>
