@@ -88,7 +88,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (obj_shotgun.collision == false){
+            <string>if (oshotgun.collision == false){
     hp -= 4;
 }
 </string>

@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (ogdgy.health&lt;5)
+            <string>if (ghp&lt;5)
 {
-    ogdgy.health+=1;
+    ghp += 1;
 }
 
     instance_destroy();
