@@ -67,29 +67,45 @@ if (oshotgun.y &gt;= y){
     <event eventtype="4" ename="ogdgy">
       <action>
         <libid>1</libid>
-        <id>402</id>
+        <id>115</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>-1</isquestion>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_if_collision</functionname>
+        <functionname>action_bounce</functionname>
         <codestring></codestring>
-        <whoName>owall</whoName>
-        <relative>-1</relative>
+        <whoName>ogdgy</whoName>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
+            <kind>4</kind>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>108</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_friction</functionname>
+        <codestring></codestring>
+        <whoName>ogdgy</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>-35</string>
           </argument>
         </arguments>
       </action>
