@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>transition_kind = 10; // See GM Help for transition types
+            <string>
 room_goto(rtutorial);
 //Initializes new game
 globalvar clives;

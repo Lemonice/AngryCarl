@@ -171,6 +171,7 @@
     <instance objName="omk" x="96" y="80" name="inst_9DA1D8C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="omk" x="96" y="768" name="inst_2FF14ECA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oboss" x="448" y="352" name="inst_AFECB210" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ohud" x="32" y="32" name="inst_67ABEB25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
