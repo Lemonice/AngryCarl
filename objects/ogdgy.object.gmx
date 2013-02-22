@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health = 5;
-weapon = 1;
+            <string>weapon = 1;
 cooldown = 0; // Regulates the firing tempo of primary weapon
 mg_cooldown = 0; // Regulates the firing tempo of Weapon 2 (machine gun)
 sg_cooldown = 0; // Regulates the firing tempo of Weapon 3 (shotgun)
@@ -35,8 +34,7 @@ has_flames = false;
 has_machinegun = false;
 has_shotgun = false;
 firing = false;
-globalvar clives;
-clives=3;
+
 
 /*
  * Stores last direction pointing
@@ -256,7 +254,7 @@ if (firing){
         sprite_index = sgdgyhrtl;
     }
     
-    health--;
+    ghp--;
     damage_cooldown = 40;
 }
 </string>
@@ -336,7 +334,7 @@ if (firing){
         sprite_index = sgdgyhrtl;
     }
     
-    health--;
+    ghp--;
     damage_cooldown = 40;
 }
 </string>
@@ -370,7 +368,7 @@ if (firing){
         sprite_index = sgdgyhrtl;
     }
     
-    health--;
+    ghp--;
     damage_cooldown = 40;
 }
 </string>
@@ -451,33 +449,6 @@ if (firing){
           <argument>
             <kind>0</kind>
             <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="9">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(clives&lt;1)
-{
-    show_message("Game Over. Try Again!");
-    game_end();
-}
-</string>
           </argument>
         </arguments>
       </action>
