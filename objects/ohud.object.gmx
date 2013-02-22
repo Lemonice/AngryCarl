@@ -30,6 +30,7 @@
 //This is the Health
 draw_sprite(shp,0, view_xview[0]+9,view_yview[0]+10);
 if (ogdgy.health&lt;1){
+clives -=1;
 instance_destroy();
 }
 draw_sprite(shp,0, view_xview[0]+27,view_yview[0]+10);
@@ -51,8 +52,16 @@ draw_sprite(shp,1, view_xview[0]+81,view_yview[0]+10);
 
 //This is the life counter
 draw_sprite(slives,0,view_xview[0]+11,view_yview[0]+455);
+if (clives&lt;1){
+    show_message("Game Over. Try Again!");
+    game_end();
+}
 draw_sprite(slives,0,view_xview[0]+31,view_yview[0]+455);
+if (clives&lt;2){
+}
 draw_sprite(slives,0,view_xview[0]+51,view_yview[0]+455);
+if (clives&lt;3){
+}
 
 </string>
           </argument>

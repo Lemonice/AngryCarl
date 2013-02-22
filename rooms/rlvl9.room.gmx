@@ -417,7 +417,7 @@
     <instance objName="obdgy2" x="1264" y="720" name="inst_2115D5D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obdgy2" x="1264" y="800" name="inst_2C414D6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obdgy2" x="1312" y="752" name="inst_F79D0995" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="opellg" x="176" y="272" name="inst_4603186C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellg" x="192" y="144" name="inst_4603186C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="omk" x="1408" y="128" name="inst_662EA2BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="omk" x="592" y="272" name="inst_3AFE0402" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="omk" x="192" y="448" name="inst_61C0FF87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -427,6 +427,46 @@
     <instance objName="omk" x="1328" y="704" name="inst_516DC5E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="omk" x="1392" y="688" name="inst_5B0BC4BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="omk" x="1408" y="640" name="inst_83A87F17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellr" x="176" y="64" name="inst_E8B9BCCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="528" y="96" name="inst_841C0C5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="1008" y="128" name="inst_ACA24ACC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="1232" y="320" name="inst_8E2B12A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="496" y="448" name="inst_09CFC032" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="1024" y="496" name="inst_AB2577E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="208" y="656" name="inst_7F170A48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="112" y="400" name="inst_0A4C56A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="160" y="848" name="inst_23F8C609" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="1136" y="816" name="inst_962FCFE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="1328" y="832" name="inst_B548FD7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="1200" y="752" name="inst_C31B66DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="448" y="640" name="inst_D4340997" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="720" y="624" name="inst_B4C54ACD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="640" y="832" name="inst_203D6B70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="736" y="304" name="inst_D377D93B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy3" x="1232" y="128" name="inst_B44CC649" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="800" y="304" name="inst_A633AF77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="1056" y="304" name="inst_B5017AFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="1344" y="368" name="inst_B640E664" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="1408" y="224" name="inst_B113C7C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="928" y="592" name="inst_5864A3CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="784" y="800" name="inst_A8F11DE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="944" y="800" name="inst_8F5ED9AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="576" y="864" name="inst_01FC7A52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="304" y="816" name="inst_EB6B1921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="144" y="672" name="inst_F65B6DF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="288" y="592" name="inst_8AA1413B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="720" y="624" name="inst_AE7C467C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="896" y="480" name="inst_E505E219" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="640" y="432" name="inst_CDC046FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="384" y="448" name="inst_4D21CE62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="208" y="288" name="inst_21E20D3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="656" y="96" name="inst_509A6D99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="816" y="80" name="inst_38B6E8D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="1120" y="112" name="inst_01738D26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="1376" y="80" name="inst_2A6A626F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy2" x="1312" y="128" name="inst_F980DFF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy1" x="720" y="96" name="inst_7429B57B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obdgy1" x="1360" y="320" name="inst_7D0327F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ohud" x="32" y="32" name="inst_14034F2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
