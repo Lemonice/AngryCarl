@@ -54,6 +54,8 @@ drawTextCentered("The End", 0, 170, 20, 700);
 
 drawTextCentered("Congratulations!!!! You Won.",0,230,20,700);
 
+drawTextCentered("Your Score: "+string(dscore),0,300,20,700);
+
 drawTextCentered("Press 'Esc' to exit the game.",0,420,20,700);
 
 drawTextCentered("OR PRESS 'SPACE' TO RESTART!",0,450,20,700);

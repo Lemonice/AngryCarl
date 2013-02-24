@@ -25,11 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-room_goto(rtutorial);
-//Initializes new game
-globalvar clives;
-clives=3;
+            <string>room_goto_next();
+lvl++;
 </string>
           </argument>
         </arguments>

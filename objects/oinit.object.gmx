@@ -29,6 +29,13 @@
 globalvar mFont;
 globalvar clives;
 globalvar ghp;
+globalvar lvl;
+globalvar sgammo;
+globalvar flameammo;
+globalvar dscore;
+
+dscore=0;
+lvl = 0;
 ghp=5;
 clives=3;
 mFont = font_add_sprite(sfont, ord(' '), false, 0);

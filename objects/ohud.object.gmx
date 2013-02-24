@@ -65,6 +65,16 @@ if (clives&lt;3){
 draw_sprite(slives,1,view_xview[0]+51,view_yview[0]+455);
 }
 
+//Level Counter
+draw_set_font(font1);
+
+draw_set_color(c_red);
+
+draw_text(view_xview[0]+440,view_yview[0]+450,"Level: "+string(lvl));
+
+
+//Score Counter
+draw_text(view_xview[0]+430,view_yview[0]+10,"Score: "+string(dscore));
 </string>
           </argument>
         </arguments>
