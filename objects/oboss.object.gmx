@@ -29,6 +29,10 @@
 range_max = 700;
 range_min = 150;
 Distance = 120;
+
+spawnedWave1 = false;
+spawnedWave2 = false;
+spawnedWave3 = false;
 </string>
           </argument>
         </arguments>
@@ -51,17 +55,20 @@ Distance = 120;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (hp=150){
+            <string>if (spawnedWave1 == false &amp;&amp; hp &lt;= 150){
+    spawnedWave1 = true;
     instance_create(oboss.x-30,oboss.y+30,obdgy1);
     instance_create(oboss.x,oboss.y+30,obdgy1);
     instance_create(oboss.x+30,oboss.y+30,obdgy1);
 }
-else if(hp=100){
+else if(spawnedWave2 == false &amp;&amp; hp &lt;= 100){
+    spawnedWave2 = true;
     instance_create(oboss.x-30,oboss.y+30,obdgy2);
     instance_create(oboss.x,oboss.y+30,obdgy2);
     instance_create(oboss.x+30,oboss.y+30,obdgy2);
 }
-else if(hp=50){
+else if(spawnedWave3 == false &amp;&amp; hp &lt;= 50){
+    spawnedWave3 = true;
     instance_create(oboss.x-30,oboss.y+30,obdgy3);
     instance_create(oboss.x+30,oboss.y+30,obdgy3);
 }
