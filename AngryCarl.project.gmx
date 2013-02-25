@@ -30,6 +30,8 @@
     <sprite>sprites\sdoor</sprite>
     <sprite>sprites\simpact</sprite>
     <sprite>sprites\slives</sprite>
+    <sprite>sprites\sbulletmg</sprite>
+    <sprite>sprites\sbulletmgv</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

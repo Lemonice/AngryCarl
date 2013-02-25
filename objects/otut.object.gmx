@@ -29,9 +29,9 @@
 
 draw_set_color(c_blue);
 
-draw_text(96,110,"Collect and Press '2' for Machine Gun.");
-draw_text(220,236,"Collect and Press '4' for Flame Gun.");
-draw_text(96,360,"Collect and Press '3' for Shotgun.");
+draw_text(96,110,"Collect and Press '2' for Machine Gun Ammo.");
+draw_text(150,236,"Collect and Press '4' for Flame Gun Ammo.");
+draw_text(86,360,"Collect and Press '3' for Shotgun Ammo.");
 draw_text(80,170,"Press '1' for Normal Gun.");
 draw_text(80,270,"Press Up, Down, Left, and Right to move.");
 draw_text(80,285,"Or press WASD to move.");
