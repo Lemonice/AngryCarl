@@ -307,6 +307,11 @@
     <instance objName="opell" x="448" y="832" name="inst_11FDD9A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="opell" x="720" y="800" name="inst_DA119196" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="opell" x="832" y="768" name="inst_1A72EAD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellb" x="544" y="464" name="inst_5F95BA44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellg" x="448" y="432" name="inst_29745F9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellr" x="672" y="608" name="inst_9332E24A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellg" x="656" y="672" name="inst_6D2A1F7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellb" x="624" y="592" name="inst_3C11CDEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ohud" x="32" y="32" name="inst_672E8655" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

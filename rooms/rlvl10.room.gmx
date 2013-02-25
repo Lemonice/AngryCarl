@@ -171,6 +171,9 @@
     <instance objName="omk" x="96" y="80" name="inst_9DA1D8C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="omk" x="96" y="768" name="inst_2FF14ECA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oboss" x="448" y="352" name="inst_AFECB210" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellr" x="496" y="736" name="inst_3E85DE5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellb" x="448" y="816" name="inst_C61D7EEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellg" x="528" y="784" name="inst_0CA77157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ohud" x="32" y="32" name="inst_67ABEB25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

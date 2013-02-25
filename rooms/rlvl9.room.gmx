@@ -499,6 +499,18 @@
     <instance objName="opell" x="1376" y="656" name="inst_F9A0491A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="opell" x="1424" y="752" name="inst_76F7784C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="opell" x="1376" y="752" name="inst_263781C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellb" x="1376" y="160" name="inst_754C1A26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellr" x="1360" y="176" name="inst_2DE6CCCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellg" x="1360" y="128" name="inst_7D43C1A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellg" x="176" y="416" name="inst_6D86B833" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellb" x="208" y="416" name="inst_721FA666" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellr" x="240" y="432" name="inst_1B5F02FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellr" x="176" y="784" name="inst_37571CB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellb" x="128" y="784" name="inst_FF0C5B05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellg" x="224" y="784" name="inst_67229AAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellg" x="1328" y="672" name="inst_B60954CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellr" x="1296" y="672" name="inst_5D33BF25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="opellb" x="1248" y="672" name="inst_24DE81ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ohud" x="32" y="32" name="inst_14034F2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
