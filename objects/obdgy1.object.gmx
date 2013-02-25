@@ -53,6 +53,7 @@ Distance = 120;
           <argument>
             <kind>1</kind>
             <string>if (hp &lt;= 0){
+    dscore++;
     instance_destroy();
 }
 distance = abs(x-ogdgy.x);

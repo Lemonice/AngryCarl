@@ -73,6 +73,7 @@ else if(spawnedWave3 == false &amp;&amp; hp &lt;= 50){
     instance_create(oboss.x+30,oboss.y+30,obdgy3);
 }
 else if (hp &lt;= 0){
+    dscore++;
     instance_create(oboss.x,oboss.y,odoor);
     instance_destroy();
 }

@@ -31,9 +31,13 @@ globalvar clives;
 globalvar ghp;
 globalvar lvl;
 globalvar sgammo;
-globalvar flameammo;
+globalvar mgammo;
+globalvar fgammo;
 globalvar dscore;
 
+mgammo=0;
+sgammo=0;
+fgammo=0;
 dscore=0;
 lvl = 0;
 ghp=5;
