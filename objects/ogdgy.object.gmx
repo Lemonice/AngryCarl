@@ -189,7 +189,7 @@ if (firing){
             }
             break;
         case 2:
-            if (has_machinegun){
+            if (has_machinegun &amp;&amp; mgammo &gt; 0){
                 if (mg_cooldown == 0){
                     projectile = instance_create(ogdgy.x + origin_x_offset, ogdgy.y + origin_y_offset, obullet);
                     projectile.direction = direction;
@@ -201,24 +201,28 @@ if (firing){
                         projectile.sprite_index = sbulletmg;
                     }
                     
+                    mgammo--;
                     mg_cooldown = 5;
                 }
             }
             break;
         case 3:
-            if (has_shotgun){
+            if (has_shotgun &amp;&amp; sgammo &gt; 0){
                 if (sg_cooldown == 0){
                     projectile = instance_create(ogdgy.x + origin_x_offset, ogdgy.y + origin_y_offset, oshotblast);
                     projectile.direction = direction;
                     
+                    sgammo--;
                     sg_cooldown = 25;
                 }
             }
             break;
         case 4:
-            if (has_flames){
+            if (has_flames &amp;&amp; fgammo &gt; 0){
                 projectile = instance_create(ogdgy.x + origin_x_offset, ogdgy.y + origin_y_offset, oflame);
                 projectile.direction = direction;
+                
+                fgammo--;
             }
             break;
         default:
