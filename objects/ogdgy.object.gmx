@@ -30,9 +30,6 @@ cooldown = 0; // Regulates the firing tempo of primary weapon
 mg_cooldown = 0; // Regulates the firing tempo of Weapon 2 (machine gun)
 sg_cooldown = 0; // Regulates the firing tempo of Weapon 3 (shotgun)
 damage_cooldown = 0; // Regulates how fast you can get hurt
-has_flames = false;
-has_machinegun = false;
-has_shotgun = false;
 firing = false;
 
 

@@ -34,7 +34,13 @@ globalvar sgammo;
 globalvar mgammo;
 globalvar fgammo;
 globalvar dscore;
+globalvar has_flames;
+globalvar has_machinegun;
+globalvar has_shotgun;
 
+has_flames = false;
+has_machinegun = false;
+has_shotgun = false;
 mgammo=0;
 sgammo=0;
 fgammo=0;
