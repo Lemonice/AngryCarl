@@ -32,6 +32,7 @@ draw_sprite(shp,0, view_xview[0]+9,view_yview[0]+10);
 if (ghp&lt;1){
 clives -=1;
 ghp+=5;
+instance_create(ogdgy.x, ogdgy.y - 50, oLostLife);
 }
 draw_sprite(shp,0, view_xview[0]+27,view_yview[0]+10);
 if (ghp&lt;2){
@@ -70,8 +71,21 @@ draw_set_font(font1);
 
 draw_set_color(c_red);
 
-draw_text(view_xview[0]+440,view_yview[0]+450,"Level: "+string(lvl));
+draw_text(view_xview[0]+440,view_yview[0]+455,"Level: "+string(lvl));
 
+//Ammo Counter
+if (ogdgy.weapon=3){
+draw_text(view_xview[0]+210,view_yview[0]+455,"Ammo: "+string(sgammo));
+}
+else if (ogdgy.weapon=2){
+draw_text(view_xview[0]+210,view_yview[0]+455,"Ammo: "+string(mgammo));
+}
+else if (ogdgy.weapon=4){
+draw_text(view_xview[0]+210,view_yview[0]+455,"Ammo: "+string(fgammo));
+}
+else{
+draw_text(view_xview[0]+210,view_yview[0]+455,"Ammo: Unlimited!");
+}
 
 //Score Counter
 draw_text(view_xview[0]+430,view_yview[0]+10,"Score: "+string(dscore));
