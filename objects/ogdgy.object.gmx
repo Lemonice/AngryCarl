@@ -196,7 +196,9 @@ if (firing){
                     
                     // If the bullet is going to go up or down
                     if (direction == 2 || direction == 4){
-                        projectile.sprite_index = sbulletv;
+                        projectile.sprite_index = sbulletmgv;
+                    } else {
+                        projectile.sprite_index = sbulletmg;
                     }
                     
                     mg_cooldown = 5;
