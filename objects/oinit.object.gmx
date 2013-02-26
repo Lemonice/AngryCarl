@@ -37,7 +37,6 @@ globalvar dscore;
 globalvar has_flames;
 globalvar has_machinegun;
 globalvar has_shotgun;
-sound_global_volume(1);
 
 has_flames = false;
 has_machinegun = false;

@@ -79,6 +79,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\TitlePage</room>
+    <room>rooms\rlvl10</room>
     <room>rooms\rtutorial</room>
     <room>rooms\rlvl2</room>
     <room>rooms\rlvl3</room>
@@ -88,7 +89,6 @@
     <room>rooms\rlvl7</room>
     <room>rooms\rlvl8</room>
     <room>rooms\rlvl9</room>
-    <room>rooms\rlvl10</room>
     <room>rooms\End_Page</room>
   </rooms>
   <help>
