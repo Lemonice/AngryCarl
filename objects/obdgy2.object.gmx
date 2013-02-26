@@ -54,7 +54,9 @@ Distance = 120;
             <kind>1</kind>
             <string>if (hp &lt;= 0){
     dscore++;
+    sound_play(sndbdgy2);  
     instance_destroy();
+    
 }
 distance = abs(x-ogdgy.x);
 if (distance&lt;range_max)

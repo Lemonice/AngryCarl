@@ -4,7 +4,16 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndboss</sound>
+    <sound>sound\sndflames</sound>
+    <sound>sound\sndbdgy3</sound>
+    <sound>sound\sndmacgun</sound>
+    <sound>sound\sndbdgy1</sound>
+    <sound>sound\sndbdgy2</sound>
+    <sound>sound\sndgun</sound>
+    <sound>sound\sndshotgun</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sbdgy2</sprite>
     <sprite>sprites\sgdgy</sprite>
