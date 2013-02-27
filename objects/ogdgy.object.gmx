@@ -181,7 +181,7 @@ if (firing){
                 if (direction == 2 || direction == 4){
                     projectile.sprite_index = sbulletv;
                 }
-                
+                sound_play(sndgun);
                 cooldown = 10;
             }
             break;
@@ -197,7 +197,7 @@ if (firing){
                     } else {
                         projectile.sprite_index = sbulletmg;
                     }
-                    
+                    sound_play(sndmacgun);
                     mgammo--;
                     mg_cooldown = 5;
                 }
@@ -206,6 +206,7 @@ if (firing){
         case 3:
             if (has_shotgun &amp;&amp; sgammo &gt; 0){
                 if (sg_cooldown == 0){
+                    sound_play(sndshotgun);
                     projectile = instance_create(ogdgy.x + origin_x_offset, ogdgy.y + origin_y_offset, oshotblast);
                     projectile.direction = direction;
                     
@@ -218,7 +219,7 @@ if (firing){
             if (has_flames &amp;&amp; fgammo &gt; 0){
                 projectile = instance_create(ogdgy.x + origin_x_offset, ogdgy.y + origin_y_offset, oflame);
                 projectile.direction = direction;
-                
+                sound_play(sndflames);
                 fgammo--;
             }
             break;

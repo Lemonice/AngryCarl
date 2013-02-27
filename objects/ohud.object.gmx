@@ -54,7 +54,7 @@ draw_sprite(shp,1, view_xview[0]+81,view_yview[0]+10);
 //This is the life counter
 draw_sprite(slives,0,view_xview[0]+11,view_yview[0]+455);
 if (clives&lt;1){
-    show_message("Game Over. Try Again!");
+    show_message("Game Over. Your Score Was: "+string(dscore)+" Try Again!");
     game_end();
 }
 draw_sprite(slives,0,view_xview[0]+31,view_yview[0]+455);
